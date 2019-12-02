@@ -16,7 +16,6 @@ def calculate_fuel(mass):
     fuel = (mass // 3) - 2
     if fuel < 0:
         return 0
-    print(fuel)
     return fuel + calculate_fuel(fuel)
 
 
